@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Foundit</string>
+    <string name="view_map_text">View Map</string>
+    <string name="title_activity_view_map">ViewMap</string>
+    <string name="title_activity_flight_schedule">FlightSchedule</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_checkin">Checkin</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_transport">Transport</string>
+    <string-array name="area_array">
+        <item>Petaling Jaya</item>
+        <item>Subang Jaya</item>
+        <item>Kuala Lumpur</item>
+        <item>Johor</item>
+        <item>Perak</item>
+        <item>Ampang</item>
+        <item>Klang</item>
+        <item>Cheras</item>
+        <item>Melaka</item>
+        <item>Nilai</item>
+    </string-array>
+    <string name="title_activity_hotline">Hotlines</string>
+    <string name="title_activity_hotel">Hotel</string>
+</resources>

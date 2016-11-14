@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Hotline"
+    tools:showIn="@layout/activity_hotline"
+    android:background="@drawable/back_light2">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:background="#66ffffff">
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="KLIA2 Information Counters"
+            android:id="@+id/textView15"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textStyle="bold"
+            android:background="#b18131"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Airline Contact"
+            android:id="@+id/textView48"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_columnSpan="7"
+            android:background="#b18131"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="603 - 8778 5540\n603 - 8778 5541\n603 - 8778 5542"
+            android:id="@+id/textView16"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Airasia X Premium Line: 1600 85 8888\nFor Airasia, please visit askairasia.com"
+            android:id="@+id/textView49"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="KLIA1 Touch Lines"
+            android:id="@+id/textView17"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textStyle="bold"
+            android:background="#b18131"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView50"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="Malindo Air Line: +603 - 7841 5388"
+            android:layout_marginLeft="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Check flight departure time and arrival time via\n03-8776 0888\nFor general inquiries regarding flight/terminal\n03-8778 5000"
+            android:id="@+id/textView18"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView55"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="Tigerair Line: +65 3157 6434\nJetstar Airways Line: +1 866-397-8170"
+            android:layout_marginLeft="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="271dp"
+            android:layout_height="53dp"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="200dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/btnFb"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:background="@drawable/fb_icon"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/btnTw"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:background="@drawable/tw_icon" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:id="@+id/btnWeb"
+                android:layout_row="9"
+                android:layout_column="5"
+                android:background="@drawable/web_icon"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp" />
+        </LinearLayout>
+    </GridLayout>
+</RelativeLayout>
